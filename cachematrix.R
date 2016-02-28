@@ -21,7 +21,7 @@ makeCacheMatrix<- function(x = matrix()) {
   #               if the matrix was already inversed
 }
 
-
+##calculate the inversed matrix and save it back to cache
 cacheSolve <- function(x, ...) {
   INV_xmat<- x$getinverse()
   if(!is.null(INV_xmat)) { 
